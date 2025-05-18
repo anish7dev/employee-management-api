@@ -29,7 +29,6 @@ src/
 ├── repository/ # JPA repository
 └── EmployeeManagementApiApplication.java
 
-
 ---
 
 ## 📮 API Endpoints
@@ -52,16 +51,15 @@ src/
 git clone https://github.com/anish7dev/employee-management-api.git
 cd employee-management-api
 mvn spring-boot:run
-
 Then open: http://localhost:8080/api/employees
 
-Example Payload (POST)
+🧪 Example Payload (POST)
+
 {
   "name": "John Doe",
   "email": "john.doe@example.com",
   "jobTitle": "Backend Developer"
 }
-
 🗂️ Database
 This app uses an in-memory H2 database, accessible at:
 
@@ -77,3 +75,6 @@ Password: (leave blank)
 Anish Choudhary – Java Backend Developer
 
 GitHub
+
+📌 License
+This project is open-source and available under the MIT License.
